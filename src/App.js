@@ -1,4 +1,4 @@
-import {turnDark, turnLight, logout, increment, decrement} from './actions'
+import {turnDark, turnLight, logout, increment, decrement, reset} from './actions'
 import { useSelector,useDispatch } from 'react-redux';
 import './App.css';
 import {Link} from 'react-router-dom'
