@@ -24,8 +24,8 @@ function App() {
     <button onClick={()=>dispatch(turnLight())}>Light</button>
 
     <hr />
-    {!isLoggedIn && <Link to='/login'>Sign up</Link>}
     {isLoggedIn && <button onClick={()=>dispatch(logout())}>Logout</button>}
+    {!isLoggedIn && <Link to='/login'>Sign up</Link>}
     </div>
   );
 }

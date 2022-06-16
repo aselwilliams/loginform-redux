@@ -18,7 +18,7 @@ dispatch(loginSuccess())
   }
   return (
     <div className='app'>
-      <p>{isLoggedIn ? 'You are logged in' : 'Please, log in'}</p>
+      <p>{isLoggedIn ? 'Welcome! You are logged in' : 'Please, log in'}</p>
       <p>
         {isLoggedIn && <button onClick={()=>dispatch(logout())}>Log out</button>}
       </p>
