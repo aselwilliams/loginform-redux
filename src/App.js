@@ -15,6 +15,7 @@ function App() {
     <h1>Hello Redux</h1>
     <h2>Counter: {counter}</h2>
     <button onClick={()=>dispatch(increment(5))}>Increment</button>
+    <button onClick={()=>dispatch(reset())}>Reset</button>
     <button onClick={()=>dispatch(decrement())}>Decrement</button>
 
     <p>Current theme: {theme}</p>
